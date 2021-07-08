@@ -11,5 +11,10 @@
 # you can remove this file or provide at least an empty dict, e.g.
 # values: {}
 ---
-values: {}
+values:
+  id:
+    group: users
+  pkg:
+    deps:
+      - rabbitmq-server-plugins
 ...
